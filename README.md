@@ -19,7 +19,7 @@ It provides a menu-based interface to create, edit, delete, copy, move, and sear
 
 1. Clone the repository or download the project:  
 
-git clone https://github.com/YOUR_USERNAME/FileFolderManager.git
+git clone https://github.com/Mansoor-Mir1/FileFolderManager.git
 cd FileFolderManager
 
 
