@@ -6,6 +6,7 @@ It provides a menu-based interface to create, edit, delete, copy, move, and sear
 ---
 
 ## Features
+
 - ✅ Create, read, edit, delete, copy, and move files  
 - ✅ Create, view, delete, copy, and move folders  
 - ✅ Search files and folders by keyword  
@@ -17,46 +18,47 @@ It provides a menu-based interface to create, edit, delete, copy, move, and sear
 
 ## How to Run
 
-1. Clone the repository or download the project:  
+1. Clone the repository or download the project:
 
-git clone https://github.com/Mansoor-Mir1/FileFolderManager.git
-cd FileFolderManager
+    ```bash
+    git clone https://github.com/Mansoor-Mir1/FileFolderManager.git
+    cd FileFolderManager
+    ```
 
+2. Run the program (Windows):
 
-2. Run the program:  
-
+    ```powershell
     python file_folder_manager.py
+    ```
 
+   Run the program (macOS / Linux):
 
-or on Mac/Linux:  
-
+    ```bash
     python3 file_folder_manager.py
+    ```
 
+3. When prompted:
 
-3. When prompted:  
+📁 Enter the main project folder (will be created if it doesn't exist)
 
-📁 Enter the main project folder (will be created if it doesn't exist):
+- Enter a folder name (created in the same location as the script), e.g.:
+    MyFiles
 
-
-- Enter a folder name (created in the same location as the script), e.g.:  
-    MyFiles  
-
-- Or a full folder path:  
+- Or a full folder path:
 Windows: C:\Users\UserName\Documents\MyFiles  
-Mac/Linux: /Users/username/Documents/MyFiles  
+macOS/Linux: /Users/username/Documents/MyFiles
 
-- Press Enter. The program will show:  
-✅ Working in main folder: /path/to/your/folder  
+- Press Enter. The program will show:
+✅ Working in main folder: /path/to/your/folder
 
 ---
 
 ## Main Menu
 
-=== FILE & FOLDER MANAGEMENT APP ===
-1️⃣ Folder Operations
-2️⃣ File Operations
+=== FILE & FOLDER MANAGEMENT APP ===  
+1️⃣ Folder Operations  
+2️⃣ File Operations  
 3️⃣ Exit
-
 
 - Type `1` for Folder Operations  
 - Type `2` for File Operations  
@@ -66,15 +68,14 @@ Mac/Linux: /Users/username/Documents/MyFiles
 
 ## Folder Operations (Option 1)
 
---- FOLDER OPERATIONS ---
-1️⃣ Create folder
-2️⃣ View all folders
-3️⃣ Delete folder (comma-separated)
-4️⃣ Copy folder
-5️⃣ Move folder
-6️⃣ Search folders
+--- FOLDER OPERATIONS ---  
+1️⃣ Create folder  
+2️⃣ View all folders  
+3️⃣ Delete folder (comma-separated)  
+4️⃣ Copy folder  
+5️⃣ Move folder  
+6️⃣ Search folders  
 7️⃣ Back
-
 
 - Create folder: Type folder name → creates it in main folder  
 - View all folders: Lists all folders  
@@ -87,17 +88,16 @@ Mac/Linux: /Users/username/Documents/MyFiles
 
 ## File Operations (Option 2)
 
---- FILE OPERATIONS ---
-1️⃣ Create file
-2️⃣ Read file
-3️⃣ Edit file (comma-separated)
-4️⃣ Delete file (comma-separated)
-5️⃣ Copy file
-6️⃣ Move file
-7️⃣ Search files by content
-8️⃣ View all files
+--- FILE OPERATIONS ---  
+1️⃣ Create file  
+2️⃣ Read file  
+3️⃣ Edit file (comma-separated)  
+4️⃣ Delete file (comma-separated)  
+5️⃣ Copy file  
+6️⃣ Move file  
+7️⃣ Search files by content  
+8️⃣ View all files  
 9️⃣ Back
-
 
 - Create file: Type filename → creates it  
 - Read file: Type filename → shows content  
@@ -122,6 +122,4 @@ Mac/Linux: /Users/username/Documents/MyFiles
 - All files/folders are managed inside the folder you choose at the start.  
 - All actions are automatically logged in `history.log`.  
 - You can manage multiple files/folders using comma-separated names.  
-- Works on Windows, Mac, and Linux.  
-
----
+- Works on Windows, macOS, and Linux.
