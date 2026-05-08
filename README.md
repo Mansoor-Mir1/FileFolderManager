@@ -117,6 +117,21 @@ macOS/Linux: /Users/username/Documents/MyFiles
 
 ---
 
+## Screenshots
+
+### Main Menu
+![Main Menu](screenshot1.png)
+
+### Folder Operations
+![Folder Operations](screenshot2.png)
+
+### File Explorer - Project Folder
+![File Explorer](screenshot3.png)
+
+### Created Folder Inside
+![Created Folder](screenshot4.png)
+
+---
 ## Notes
 
 - All files/folders are managed inside the folder you choose at the start.  
