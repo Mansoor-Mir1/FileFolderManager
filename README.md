@@ -119,19 +119,24 @@ macOS/Linux: /Users/username/Documents/MyFiles
 
 ## Screenshots
 
-### Main Menu
-![Main Menu](screenshot1.png)
+## Mains Menu
+
+![Main Menu](Screenshot1.png)
 
 ### Folder Operations
-![Folder Operations](screenshot2.png)
+
+![Folder Operations](Screenshot2.png)
 
 ### File Explorer - Project Folder
-![File Explorer](screenshot3.png)
+
+![File Explorer](Screenshot3.png)
 
 ### Created Folder Inside
-![Created Folder](screenshot4.png)
+
+![Created Folder](Screenshot4.png)
 
 ---
+
 ## Notes
 
 - All files/folders are managed inside the folder you choose at the start.  
